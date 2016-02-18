@@ -22,9 +22,4 @@
 		<property name="password" value="123456" />
 		<property name="filters" value="stat, log4j" />
 	</bean>
-	<bean id="userDao" class="org.mybatis.spring.mapper.MapperFactoryBean">
-	  <property name="mapperInterface" value="com.beacon.wechat.dao.UserDao" />
-	  <property name="sqlSessionFactory" ref="sqlSessionFactory" />
-	</bean>
- 
 </beans>
