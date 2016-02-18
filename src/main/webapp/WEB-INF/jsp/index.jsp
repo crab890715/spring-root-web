@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-11111
+<div>${user.name }</div> 
 </body>
 </html>
